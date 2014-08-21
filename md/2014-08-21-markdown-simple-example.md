@@ -10,10 +10,10 @@ _notoc: true
 #_comment: true
 ---
 
+对照[本文源代码](http://a.higrid.net/md/2014-08-21-markdown-simple-example.md) 查看
+
 关于Markdown
 ---------------
-
-对照[本文源代码](http://a.higrid.net/source/2014-08-21-markdown-simple-example.md) 查看
 
 1.[Wiki: Markdown](http://zh.wikipedia.org/wiki/Markdown "Wiki: Markdown")
 >Markdown 是一种轻量级标记语言，创始人为 John Gruber 和 Aaron Swartz。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的 XHTML（或者 HTML）文档”。这种语言吸收了很多在电子邮件中已有的纯文本标记的特性。
