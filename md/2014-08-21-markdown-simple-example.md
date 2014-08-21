@@ -10,7 +10,9 @@ _notoc: true
 #_comment: true
 ---
 
-对照[本文源代码](http://a.higrid.net/md/2014-08-21-markdown-simple-example.md) 查看
+对照[本文源代码](https://raw.githubusercontent.com/sheyi/a/gh-pages/md/2014-08-21-markdown-simple-example.md)查看
+
+[清除样式浏览](http://a.higrid.net/md/2014-08-21-markdown-simple-example)
 
 关于Markdown
 ---------------
