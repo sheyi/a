@@ -8,7 +8,7 @@ EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
 EJS_language = 'zh-CN'; //language
 //EJS_biosUrl = 'neogeo.7z';
 
-//EJS_backgroundImage = 'loadScreen.png';
+//EJS_backgroundImage = '//a.higrid.net/include/game/loader.svg';
 EJS_backgroundBlur = true;
 //nes gb gba snes n64 gba nds vb segaMD segaCD sega32x segaMS segaGG segaSaturn 3do atari2600 atari7800 lynx jaguar arcade mame
 ////////////////////////////////////////
