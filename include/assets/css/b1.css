@@ -1,13 +1,9 @@
 @charset "utf-8";
 body {
-    position: relative;
     font-family: "PingFang SC","PingFangSC-Regular", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1","WenQuanYi Micro Hei",Arial, Helvetica, sans-serif;
-    line-height: 1.5;
     min-height: 60rem;
-    background-color: #F1FAFA;
-    padding-top: 4.5rem;
     padding-bottom: 1rem;
-    background-image: url(//a.higrid.net/include/assets/css/bg-grid.png);
+    background-image: url(/include/assets/css/bg-grid.png);
     background-repeat: repeat-x;
     background-position: 0 40px;
 }
