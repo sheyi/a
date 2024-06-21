@@ -1,11 +1,11 @@
 @charset "utf-8";
 body {
     font-family: "PingFang SC","PingFangSC-Regular", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1","WenQuanYi Micro Hei",Arial, Helvetica, sans-serif;
-    min-height: 60rem;
-    padding-bottom: 1rem;
+
+
     background-image: url(/include/assets/css/bg-grid.png);
     background-repeat: repeat-x;
-    background-position: 0 40px;
+
 }
 nav.navbar {
     background: #5f2c82;
