@@ -1,0 +1,43 @@
+<html>
+    <body>
+        <button onclick="generate()">Generate document</button>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docxtemplater/3.45.0/docxtemplater.js"></script>
+    <script src="https://unpkg.com/pizzip@3.1.6/dist/pizzip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="https://unpkg.com/pizzip@3.1.6/dist/pizzip-utils.js"></script>
+
+
+
+
+
+    <script src="build/xlsxmodule.js"></script>
+    <script>
+        const xlsxMime =
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+
+        PizZipUtils.getBinaryContent(
+            "examples/simple.xlsx",
+            function (error, content) {
+                if (error) {
+                    console.error(error);
+                    return;
+                }
+
+                const zip = new PizZip(content);
+                const doc = new docxtemplater(zip, {
+                    modules: [new XlsxModule()],
+                });
+
+                doc.render({
+                    name: "John Doe",
+                });
+                const out = doc.getZip().generate({
+                    type: "blob",
+                    mimeType: xlsxMime,
+                });
+                saveAs(out, "generated.xlsx");
+            }
+        );
+    </script>
+</html>
