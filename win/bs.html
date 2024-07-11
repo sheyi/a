@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="80Game,80游戏,在线游戏,Windows游戏,星际争霸">
+    <meta name="description" content="无需下载，在线畅玩上千经典游戏！提供 Windows、Dos、街机、FC、SFC、MD 等众多游戏。">
+        
+    <link rel="stylesheet" href="/win/v86.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet"  type="text/css" href="//a.higrid.net/include/assets/css/mini.css?d=20230706">	   
+    <link rel="stylesheet" href="/win/wingame.css">
+    <title>星际争霸 - 80Game</title>
+
+    
+
+</head>
+
+<body>
+<header>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-dark  header-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/"><img src="{{imgdomain}}/include/assets/50.png" alt="H!Grid 服务" width="83" height="27"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item"><a class="nav-link" href="/page/products">建站</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/page/poetry">诗词</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/page/books">读书</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog">博客</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/view/club/home">会员</a></li>
+                        </ul>
+                        <form class="d-flex" action="/posts/search" method="get">
+                            <input class="form-control me-2" type="text" name="q" placeholder="标题关键字找文章" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">搜</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+</header>
+
+<div class="main-banner">
+</div>
+
+<div class="row">
+    <div class="col-lg-3 col-md-2 d-none d-md-block">
+        <div class="game_ad">
+            <div class="item">
+                <div class="ad" style="margin: 10px 10px 10px 10px">
+                    <p><h7>【保存】: 游戏中保存后，再点击工具栏的保存。</h7></p>
+                    <p><h7>【读取】: 游戏启动后，点击工具栏的读取。</h7></p>
+                    <p><h7>【蓝屏】: 如遇蓝屏会自动重启，请稍等即可。</h7></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-8 col-12">
+        <div class="row">
+            <div class="col-lg-1 col-md-1 col-1">
+                
+            </div>
+            <div class="col-lg-1 col-md-1 col-1">
+                
+            </div>
+            <div class="col-lg-8 col-md-8 col-8">
+                <div class="section-heading">
+                    <div class="play-game-title">星际争霸</div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-2">
+                <div class="tool_container">
+
+    
+        <button id="tool_save" disabled type="button" class="tool_btn-svg tool_disabled" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="保存">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-2 -5 20 24"
+                 fill="currentColor">
+                <path
+                    d="M4 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1V9.5A1.5 1.5 0 0 1 5.5 8h5A1.5 1.5 0 0 1 12 9.5V13a1 1 0 0 0 1-1V5.621a1 1 0 0 0-.293-.707l-1.621-1.621A1 1 0 0 0 10.379 3H10v1.5A1.5 1.5 0 0 1 8.5 6h-2A1.5 1.5 0 0 1 5 4.5V3H4zm2 0v1.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5V3H6zm5 10V9.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0-.5.5V13h6zM2 4a2 2 0 0 1 2-2h6.379a2 2 0 0 1 1.414.586l1.621 1.621A2 2 0 0 1 14 5.621V12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4z"/>
+            </svg>
+        </button>
+    
+
+    
+        <button id="tool_load" disabled type="button" class="tool_btn-svg tool_disabled" data-bs-toggle="tooltip"
+                data-bs-placement="top" title="读取">
+            <svg class="icon" style="transform: scale(0.85);" xmlns="http://www.w3.org/2000/svg" width="30" height="32"
+                 viewBox="-2 -2 20 24" fill="currentColor">
+                <path
+                    d="M15.75 9.25a.75.75 0 0 1 .743.648L16.5 10v5.25a2.75 2.75 0 0 1-2.582 2.745L13.75 18h-7.5a2.75 2.75 0 0 1-2.745-2.582L3.5 15.25V10a.75.75 0 0 1 1.493-.102L5 10v5.25c0 .647.492 1.18 1.122 1.244l.128.006h7.5a1.25 1.25 0 0 0 1.243-1.122L15 15.25V10a.75.75 0 0 1 .75-.75zM5.227 6.462L9.47 2.22a.75.75 0 0 1 .976-.073l.084.073l4.243 4.242a.75.75 0 0 1-.977 1.134l-.084-.073L10.75 4.56v7.69a.75.75 0 0 1-.648.743L10 13a.75.75 0 0 1-.743-.648l-.007-.102V4.56L6.288 7.523a.75.75 0 0 1-.977.073l-.084-.073a.75.75 0 0 1-.073-.977l.073-.084L9.47 2.22L5.227 6.462z"></path>
+            </svg>
+        </button>
+    
+
+    
+
+    <button id="tool_fullscreen" disabled type="button" class="tool_btn-svg tool_disabled" data-bs-toggle="tooltip"
+            data-bs-placement="top" title="全屏">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-2 -5 20 24"
+             fill="currentColor">
+            <path
+                d="M3.75 3a.75.75 0 0 0-.75.75V5.5a.5.5 0 0 1-1 0V3.75C2 2.784 2.784 2 3.75 2H5.5a.5.5 0 0 1 0 1H3.75zM10 2.5a.5.5 0 0 1 .5-.5h1.75c.966 0 1.75.784 1.75 1.75V5.5a.5.5 0 0 1-1 0V3.75a.75.75 0 0 0-.75-.75H10.5a.5.5 0 0 1-.5-.5zM2.5 10a.5.5 0 0 1 .5.5v1.75c0 .414.336.75.75.75H5.5a.5.5 0 0 1 0 1H3.75A1.75 1.75 0 0 1 2 12.25V10.5a.5.5 0 0 1 .5-.5zm11 0a.5.5 0 0 1 .5.5v1.75A1.75 1.75 0 0 1 12.25 14H10.5a.5.5 0 0 1 0-1h1.75a.75.75 0 0 0 .75-.75V10.5a.5.5 0 0 1 .5-.5z"/>
+        </svg>
+    </button>
+</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="game_container" class="windows-game_container">
+        <div class="windows-game-loading">
+            <div id="game-loading" class="windows-game-loading-text"></div>
+        </div>
+        <div class="game-start-loading-div">
+            <img id="game-start-loading" src="/images/game/start-loading.png">
+        </div>
+        <div class="game-start-div">
+            <button id="game-start" class="game-start" style="display: none;">开始游戏</button>
+        </div>
+
+        <div id="screen_container">
+            <div id="screen"></div>
+            <canvas id="vga"></canvas>
+        </div>
+    </div>
+
+    <div class="col-lg-3 col-md-2 d-none d-md-block">
+        <div class="game_ad">
+            <div class="item item-plus">
+                <div class="ad">
+                    
+ad
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<script src="/emulator/v86/build/libv86-debug.js"></script>-->
+<script src="/win/libv86.js"></script>
+<script src="/win/unit.js"></script>
+<script src="/win/windows.js"></script>
+
+<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.6.0/jquery.min.js" type="application/javascript"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+
+
+<script>
+    var _webRes = "https://webres.80game.xyz";
+    let context = {
+        id: '星际争霸_1.0',
+        memory_size: parseInt(268435456),
+        vga_memory_size: parseInt(8388608),
+        hda: {
+            url: "https://windows.80game.xyz/package/星际争霸.img.zst",
+            async: Boolean(false),
+            
+            size: parseInt(335544320),
+            
+        },
+        
+    }
+
+    
+</script>
+
+
+
+</body>
+</html>
